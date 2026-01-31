@@ -30,6 +30,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2vw 4vw 4vw 4vw;
   position: absolute;
   z-index: 9;
@@ -135,6 +136,10 @@ path{
   }
   &:hover img {
     transform: rotate(10deg) translateX(6px);
+  }
+
+  @media (max-width: 600px) {
+   align-self: center;
   }
 }
 
