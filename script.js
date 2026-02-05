@@ -133,17 +133,13 @@ let tl = gsap.timeline({
 
 tl.to('#preloader path', {
   duration: 1,
-  fill: 'rgb(168,19,19)',
-  stroke: 'rgb(233, 236, 238)',
   strokeDashoffset: 0,
-  ease: 'linear',
 });
 
 tl.to('#preloader path', {
   fill: 'rgb(168,19,19)',
-  stroke: 'rgb(65, 9, 9)',
-  strokeDashoffset: 0,
   duration: 0.5,
+  strokeDashoffset: 0,
 });
 
 const cards = document.querySelectorAll('.card');
